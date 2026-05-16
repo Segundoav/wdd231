@@ -1,0 +1,26 @@
+{
+    "family_name": "Hurtado",
+    "move_in_date": "2026-03-14",
+    "number_of_people": 3,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Jose Hurtado",
+            "gender": "Male",
+            "birthdate": "1977-06-27"
+        },
+        {
+            "name": "Maria Hurtado",
+            "gender": "Female",
+            "birthdate": "1987-07-07"
+
+        },
+        {
+            "name": "Luis Hurtado",
+            "gender": "Male",
+            "birthdate": "2014-06-15"
+
+        }
+    ]
+
+}
