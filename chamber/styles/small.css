@@ -1,0 +1,216 @@
+/* General mobile setups (Mobile-First) starting from 320px screen widths */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f6f9;
+}
+
+header {
+    background-color: #1a365d; /* Dark corporate blue */
+    color: white;
+    padding: 1.2rem;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-area h1 {
+    font-size: 1.3rem;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive navigation hamburger control placement */
+#menu-button {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#menu-button:active {
+    transform: scale(0.9);
+}
+
+#nav-menu {
+    display: none;
+    width: 100%;
+}
+
+/* Toggle menu display through class intervention */
+#nav-menu.open {
+    display: block;
+}
+
+#nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.2rem 0 0 0;
+}
+
+#nav-menu li a {
+    display: block;
+    color: #e2e8f0;
+    text-decoration: none;
+    padding: 0.9rem;
+    border-bottom: 1px solid #2b6cb0;
+    font-weight: 500;
+}
+
+#nav-menu li a.active {
+    background-color: #2b6cb0;
+    color: white;
+    border-radius: 4px;
+}
+
+main {
+    padding: 1.5rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main h2 {
+    text-align: center;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+}
+
+/* User Interface layout manipulation buttons */
+.menu-controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 2rem;
+}
+
+.menu-controls button {
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: 2px solid #1a365d;
+    background-color: white;
+    color: #1a365d;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.menu-controls button.active, .menu-controls button:hover {
+    background-color: #1a365d;
+    color: white;
+}
+
+/* Layout catalog implementations (Grid) */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.grid-layout section {
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-layout section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.grid-layout section h3 {
+    margin: 8px 0;
+    color: #2d3748;
+    font-size: 1.15rem;
+}
+
+.grid-layout section p {
+    margin: 4px 0;
+    font-size: 0.9rem;
+    color: #4a5568;
+}
+
+.grid-layout section .url a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.grid-layout section .level {
+    font-weight: 700;
+    color: #b7791f;
+    margin-top: 8px;
+}
+
+/* List view: minimal single-column interface execution omitting images */
+.list-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.list-layout section {
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    padding: 1.2rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.list-layout section h3 {
+    margin: 0 0 6px 0;
+    color: #1a365d;
+}
+
+.list-layout section p {
+    margin: 4px 0;
+    font-size: 0.9rem;
+}
+
+.list-layout section .url a {
+    color: #3182ce;
+}
+
+/* Universal system footer space rules */
+footer {
+    background-color: #2d3748;
+    color: #edf2f7;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+footer .contact-info {
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid #4a5568;
+    padding-bottom: 1.2rem;
+}
+
+footer p {
+    margin: 6px 0;
+}

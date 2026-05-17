@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "name": "Elite Auto Accessories",
+      "address": "123 Main Street, Lima",
+      "phone": "+51 1 234 5678",
+      "website": "https://example.com/eliteauto",
+      "image": "https://picsum.photos/id/111/300/200",
+      "membership": 3
+    },
+    {
+      "name": "Alvarez Insurance Broker",
+      "address": "456 Financial Ave, Lima",
+      "phone": "+51 1 987 6543",
+      "website": "https://example.com/alvarezins",
+      "image": "https://picsum.photos/id/445/300/200",
+      "membership": 2
+    },
+    {
+      "name": "Inca Travel Agencies",
+      "address": "789 Sun Plaza, Cusco",
+      "phone": "+51 84 112233",
+      "website": "https://example.com/incatravel",
+      "image": "https://picsum.photos/id/1016/300/200",
+      "membership": 1
+    },
+    {
+      "name": "Andean Tech Solutions",
+      "address": "101 Innovation Road, Arequipa",
+      "phone": "+51 54 445566",
+      "website": "https://example.com/andantech",
+      "image": "https://picsum.photos/id/180/300/200",
+      "membership": 3
+    },
+    {
+      "name": "Pacific Logistic Services",
+      "address": "555 Port Avenue, Callao",
+      "phone": "+51 1 778899",
+      "website": "https://example.com/pacificlog",
+      "image": "https://picsum.photos/id/514/300/200",
+      "membership": 2
+    },
+    {
+      "name": "Lima Gourmet Catering",
+      "address": "222 Gastronomy St, Miraflores",
+      "phone": "+51 1 333 4444",
+      "website": "https://example.com/limagourmet",
+      "image": "https://picsum.photos/id/429/300/200",
+      "membership": 1
+    },
+    {
+      "name": "Coastal Eco Energies",
+      "address": "888 Green Valley, Ica",
+      "phone": "+51 56 998877",
+      "website": "https://example.com/coastaleco",
+      "image": "https://picsum.photos/id/982/300/200",
+      "membership": 3
+    }
+  ]
+}
