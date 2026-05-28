@@ -97,3 +97,18 @@ nav ul.open { display: block; }
     color: white;
     border-left: 5px solid #FF9900;
 }
+
+
+/* Fuerza a que los enlaces de redes sociales sean blancos para cumplir con el contraste */
+.social-links a, 
+.social-links a:link, 
+.social-links a:visited {
+    color: #ffffff !important;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Cambia a color dorado cuando el usuario pasa el mouse por encima */
+.social-links a:hover {
+    color: #ffd700 !important;
+}
