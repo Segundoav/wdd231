@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Modules Activity</title>
+    <link rel="stylesheet" href="styles/modules.css">
+    <script type="module" src="scripts/modules.mjs"></script>
+</head>
+<body>
+    <main>
+        <h1 id="courseName">Course Name Placeholder</h1>
+        <h2 id="courseCode">Course Code Placeholder</h2>
+
+        <section class="controls">
+            <label Governors for="sectionNumber">Section Number:</label>
+            <select id="sectionNumber"></select>
+            <button id="enrollStudent">Enroll Student</button>
+            <button id="dropStudent">Drop Student</button>
+        </section>
+
+        <section class="display">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Section</th>
+                        <th>Room</th>
+                        <th>Enrolled Students</th>
+                        <th>Days</th>
+                        <th>Instructor</th>
+                    </tr>
+                </thead>
+                <tbody id="sections"></tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
