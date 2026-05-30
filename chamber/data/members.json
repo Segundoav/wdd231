@@ -6,7 +6,7 @@
       "phone": "+51 1 234 5678",
       "website": "https://example.com/eliteauto",
       "image": "https://picsum.photos/id/111/300/200",
-      "membership": 3
+      "membershipLevel": "Gold"
     },
     {
       "name": "Alvarez Insurance Broker",
@@ -14,7 +14,7 @@
       "phone": "+51 1 987 6543",
       "website": "https://example.com/alvarezins",
       "image": "https://picsum.photos/id/445/300/200",
-      "membership": 2
+      "membershipLevel": "Silver"
     },
     {
       "name": "Inca Travel Agencies",
@@ -22,7 +22,7 @@
       "phone": "+51 84 112233",
       "website": "https://example.com/incatravel",
       "image": "https://picsum.photos/id/1016/300/200",
-      "membership": 1
+      "membershipLevel": "Member"
     },
     {
       "name": "Andean Tech Solutions",
@@ -30,7 +30,7 @@
       "phone": "+51 54 445566",
       "website": "https://example.com/andantech",
       "image": "https://picsum.photos/id/180/300/200",
-      "membership": 3
+      "membershipLevel": "Gold"
     },
     {
       "name": "Pacific Logistic Services",
@@ -38,7 +38,7 @@
       "phone": "+51 1 778899",
       "website": "https://example.com/pacificlog",
       "image": "https://picsum.photos/id/514/300/200",
-      "membership": 2
+      "membershipLevel": "Silver"
     },
     {
       "name": "Lima Gourmet Catering",
@@ -46,7 +46,7 @@
       "phone": "+51 1 333 4444",
       "website": "https://example.com/limagourmet",
       "image": "https://picsum.photos/id/429/300/200",
-      "membership": 1
+      "membershipLevel": "Member"
     },
     {
       "name": "Coastal Eco Energies",
@@ -54,7 +54,7 @@
       "phone": "+51 56 998877",
       "website": "https://example.com/coastaleco",
       "image": "https://picsum.photos/id/982/300/200",
-      "membership": 3
+      "membershipLevel": "Gold"
     }
   ]
 }

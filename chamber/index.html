@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo Alvarez - WDD 231 - Lima Chamber of Commerce Website</title>
+    <meta name="description" content="Chamber of Commerce business directory featuring an interactive members grid and list view toggle.">
+    <meta name="author" content="Segundo Alvarez">
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="Chamber of Commerce Business Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Explore local businesses and chamber members in our interactive grid and list directory.">
+    <meta property="og:image" content="https://salvarezvilca.github.io/wdd231/images/logo.svg">
+    <meta property="og:url" content="https://salvarezvilca.github.io/wdd231/chamber/directory.html">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <img src="../images/logo.svg" alt="Chamber Logo" width="80" height="80">
+            <h1>Chamber of Commerce</h1>
+        </div>
+        <button id="menu-button" aria-label="Toggle Menu">&#9776;</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-container">
+            <picture>
+                <source srcset="../images/hero-large.png" media="(min-width: 600px)">
+                <img src="../images/hero-small.jpg" alt="Chamber of Commerce Hero Banner" class="hero-img" loading="eager">
+            </picture>
+            <div class="cta-box">
+                <h2>Connecting Business, Driving the Future</h2>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <section class="events-section">
+            <h3>Current Events</h3>
+            <div class="event-card">
+                <h4>Business Networking Expo 2026</h4>
+                <p>Join us this weekend at the main square. Free admission for all local entrepreneurs!</p>
+            </div>
+        </section>
+
+        <section class="weather-section">
+            <h3>Current Weather</h3>
+            <div id="weather-current">
+                <p>Loading current weather...</p>
+            </div>
+            <h4>3-Day Forecast</h4>
+            <div id="weather-forecast">
+                <p>Loading forecast...</p>
+            </div>
+        </section>
+
+        <section class="spotlights-section">
+            <h3>Featured Members</h3>
+            <div id="spotlights-container">
+                Loading spotlight members...
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>📍 123 Main Street, Lima, Peru</p>
+            <p>📞 +51 1 234 5678 | ✉️ info@chamber.org</p>
+        </div>
+        <div class="dev-details">
+            <p>&copy; <span id="currentYear"></span> Segundo Alvarez | WDD 231 Course Project</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+    <script src="../scripts/main.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+</body>
+</html>
