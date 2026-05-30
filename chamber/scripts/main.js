@@ -1,6 +1,6 @@
 // ====== CONSTANTES DE LAS URL ======
-const currentURL = 'https://api.openweathermap.org/data/2.5/weather?lat=-12.04&lon=-77.03&units=metric&lang=en&appid=...';
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=-12.04&lon=-77.03&units=metric&lang=en&appid=...';
+const currentURL = 'https://api.openweathermap.org/data/2.5/weather?lat=-12.04&lon=-77.03&units=metric&lang=en&appid=72a449e0b9c4c9d9cb35829d6a579db6';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=-12.04&lon=-77.03&units=metric&lang=en&appid=72a449e0b9c4c9d9cb35829d6a579db6';
 
 
 // Ajuste de ruta: desde la perspectiva de index.html, la carpeta es "data/members.json"
