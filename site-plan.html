@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Plan: Seguros Activos</title>
+    <style>
+        /* 1. COLOR PALETTE SYSTEM (EXCLUSIVELY APPLIED) */
+        :root {
+            --primary-color: #0B2545;    /* Deep Blue */
+            --secondary-color: #EEB902;  /* Golden Yellow */
+            --bg-color: #F4F5F7;         /* Light Grey Background */
+            --text-color: #1D2A44;       /* Dark Blue Text */
+            --white: #FFFFFF;
+        }
+
+        /* 2. TYPOGRAPHY SYSTEM */
+        body {
+            font-family: 'Open Sans', Arial, sans-serif; /* Body Text Font */
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 950px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 35px 20px;
+            text-align: center;
+            border-radius: 8px;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+
+        h1, h2, h3 {
+            font-family: 'Montserrat', Helvetica, sans-serif; /* Headings Font */
+            color: var(--primary-color);
+        }
+
+        header h1 {
+            color: var(--white);
+            margin: 0 0 10px 0;
+        }
+
+        header p {
+            color: var(--secondary-color);
+            margin: 0;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        section {
+            background: var(--white);
+            margin: 25px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(11, 37, 69, 0.05);
+        }
+
+        /* Color Guide UI elements */
+        .color-palette-display {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .color-swatch {
+            flex: 1;
+            min-width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+            background: var(--bg-color);
+        }
+
+        .swatch-preview {
+            height: 60px;
+        }
+
+        .swatch-info {
+            padding: 10px;
+            font-size: 0.9em;
+        }
+
+        /* Wireframe CSS Mockup Architecture */
+        .wireframe-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .wireframe-container {
+            border: 2px dashed var(--primary-color);
+            background: #FAFAFA;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .wf-block {
+            border: 1px dashed #777;
+            background: #EAEAEA;
+            padding: 12px;
+            margin: 10px 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 0.85em;
+            color: #444;
+        }
+
+        .wf-nav-desktop { display: none; }
+        .wf-cards-desktop { display: block; }
+
+        /* Responsive Layout Switch for Desktop View */
+        @media (min-width: 768px) {
+            .wireframe-grid {
+                flex-direction: row;
+            }
+            .wireframe-container {
+                flex: 1;
+            }
+            .wf-nav-mobile { display: none; }
+            .wf-nav-desktop { display: block; }
+            
+            .wf-cards-desktop {
+                display: flex;
+                gap: 10px;
+            }
+            .wf-card-item {
+                flex: 1;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Individual Project Site Plan</h1>
+        <p>Prepared by: Segundo Demetrio Alvarez Vilca</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Site Name</h2>
+            <p><strong>Name Selection:</strong> Seguros Activos</p>
+            <p><strong>Explanation:</strong> I selected "Seguros Activos" (Active Insurance) because it portrays a protective, modern, and proactive approach to insurance brokering. It emphasizes that safety solutions are continuously running to protect clients, vehicles, and families in Lima, Peru.</p>
+        </section>
+
+        <section>
+            <h2>2. Site Purpose</h2>
+            <p>The purpose of "Seguros Activos" is to deliver an accessible digital gateway for independent insurance brokerage. It serves as a central hub where local clients can easily review, contrast, and request personalized coverage plans across four critical pillars: Automobile, Health, Home, and Life insurance, backed by dynamic JSON data structures.</p>
+        </section>
+
+        <section>
+            <h2>3. Scenarios (Target Audience Persona Questions)</h2>
+            <ul>
+                <li><strong>Scenario 1:</strong> "I recently purchased a new vehicle in Lima. What is the most effective auto insurance policy available within my price range, and what specific incidents does it protect against?"</li>
+                <li><strong>Scenario 2:</strong> "How can I contact an independent broker directly to obtain a customized, combined medical health insurance plan for my family members?"</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Color Palette</h2>
+            <p>The selected palette ensures high visual contrast and matches accessibility requirements (WebAIM compliant):</p>
+            <div class="color-palette-display">
+                <div class="color-swatch">
+                    <div class="swatch-preview" style="background-color: #0B2545;"></div>
+                    <div class="swatch-info">
+                        <strong>Primary Color: Deep Blue (#0B2545)</strong><br>
+                        Applied to: Document headers, primary section headings, navigation blocks, and structural branding elements.
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-preview" style="background-color: #EEB902;"></div>
+                    <div class="swatch-info">
+                        <strong>Secondary Color: Golden Yellow (#EEB902)</strong><br>
+                        Applied to: Buttons, links, dynamic accents, and interactive Call-To-Action (CTA) interfaces.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>5. Typography</h2>
+            <h3>Headings (H1, H2, H3)</h3>
+            <p><strong>Font Family:</strong> Montserrat, Helvetica, sans-serif.</p>
+            <p><strong>Application:</strong> Used exclusively for titles to command authority, clarity, and clean organizational structures.</p>
+            
+            <h3>Body Content</h3>
+            <p><strong>Font Family:</strong> Open Sans, Arial, sans-serif.</p>
+            <p><strong>Application:</strong> Used for all narrative paragraphs, listed items, and form inputs to ensure top-tier legibility on high-density screen displays.</p>
+        </section>
+
+        <section>
+            <h2>6. Wireframes (Home Page Layout Design)</h2>
+            <p>Below is the architectural wireframe blueprint mapping the semantic layout configuration of the project across mobile viewports and widescreen desktop states:</p>
+            
+            <div class="wireframe-grid">
+                <div class="wireframe-container">
+                    <h3>Mobile Layout Blueprint</h3>
+                    <div class="wf-block">[ Logo / Brand Header ]</div>
+                    <div class="wf-block wf-nav-mobile">[ ☰ Toggle Navigation Dropdown ]</div>
+                    <div class="wf-block" style="padding: 25px 10px;">[ Hero Intro: "Reliable Protection" + CTA Button ]</div>
+                    <div class="wf-block">[ Insurance Product Card: Auto ]</div>
+                    <div class="wf-block">[ Insurance Product Card: Health ]</div>
+                    <div class="wf-block">[ Insurance Product Card: Home ]</div>
+                    <div class="wf-block">[ Weather API Widget / Live Lima Forecast ]</div>
+                    <div class="wf-block">[ Footer Info & Legal Credits ]</div>
+                </div>
+
+                <div class="wireframe-container">
+                    <h3>Desktop Layout Blueprint</h3>
+                    <div class="wf-block">[ Logo ] -------------------- [ Links: Home | Directory | Contact ]</div>
+                    <div class="wf-block" style="padding: 35px 10px;">[ Full-Width Hero Slider Banner Component + Highlighted Quote CTA Button ]</div>
+                    <div class="wf-cards-desktop">
+                        <div class="wf-block wf-card-item">[ Auto Insurance Card ]</div>
+                        <div class="wf-block wf-card-item">[ Health Insurance Card ]</div>
+                        <div class="wf-block wf-card-item">[ Home Insurance Card ]</div>
+                    </div>
+                    <div class="wf-block">[ Weather API Widget Component ]</div>
+                    <div class="wf-block">[ Detailed Site-Map Footer & Contact Disclaimers ]</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
