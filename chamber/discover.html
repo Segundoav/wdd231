@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Lima - Chamber of Commerce</title>
+    <meta name="description" content="Discover the best places and attractions in Lima, Peru.">
+    <meta name="author" content="Segundo Alvarez">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/discover-diff.css">
+</head>
+<body>
+
+    <!-- Same header structure as chamber/index.html -->
+    <header>
+        <div class="logo-area">
+            <img src="../images/logo.svg" alt="Chamber Logo" width="80" height="80">
+            <h1>Chamber of Commerce</h1>
+        </div>
+        <button id="menu-button" aria-label="Toggle Menu">&#9776;</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Visitor message box - filled dynamically by JavaScript using localStorage -->
+        <div id="visitor-message" class="visitor-box"></div>
+
+        <!-- Empty grid container - JavaScript will generate the 8 cards here -->
+        <section id="discover-grid" class="discover-layout">
+        </section>
+    </main>
+
+    <!-- Same footer structure as chamber/index.html -->
+    <footer>
+        <div class="contact-info">
+            <p>📍 123 Main Street, Lima, Peru</p>
+            <p>📞 +51 1 234 5678 | ✉️ info@chamber.org</p>
+        </div>
+        <div class="dev-details">
+            <p>&copy; <span id="currentYear"></span> Segundo Alvarez | WDD 231 Course Project</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+    <!-- main.js handles the hamburger menu and footer dates -->
+    <script src="scripts/main.js" defer></script>
+    <!-- type="module" required to use import statements -->
+    <script type="module" src="scripts/discover.js"></script>
+
+</body>
+</html>
