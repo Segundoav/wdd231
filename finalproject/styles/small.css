@@ -172,6 +172,13 @@ section h2 {
   cursor: pointer;
 }
 
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
 /* ===== WHY US ===== */
 .reasons-grid {
   display: grid;
