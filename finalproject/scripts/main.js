@@ -6,7 +6,7 @@ initMenu();
 // ===== FETCH FEATURED INSURANCES =====
 async function loadFeatured() {
   try {
-    const response = await fetch('../data/insurances.json');
+    const response = await fetch('data/insurances.json');
     const data = await response.json();
 
     // Get one card per category using filter + map

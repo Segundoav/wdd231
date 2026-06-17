@@ -48,7 +48,7 @@ function renderCards(insurances) {
 // ===== FETCH + FILTER =====
 async function loadInsurances() {
   try {
-    const response = await fetch('../data/insurances.json');
+    const response = await fetch('data/insurances.json');
     const data = await response.json();
     const allInsurances = data.insurances;
 
