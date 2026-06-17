@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alvarez Insurance Broker - Professional insurance solutions in Peru. Life, Health, Vehicle and SCTR coverage." />
+  <meta name="author" content="Your Name" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Alvarez Insurance Broker" />
+  <meta property="og:description" content="Professional insurance solutions tailored for you and your business." />
+  <meta property="og:image" content="images/hero.webp" />
+  <meta property="og:url" content="https://yourusername.github.io/wdd231/finalproject/" />
+
+  <title>Home | Alvarez Insurance Broker</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles/small.css" />
+  <link rel="stylesheet" media="(min-width: 768px)" href="styles/larger.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Alvarez Insurance Broker Logo" width="50" height="50" loading="lazy" />
+      <span>Alvarez Insurance Broker</span>
+    </div>
+    <nav>
+      <button id="menu-btn" aria-label="Toggle navigation menu">&#9776;</button>
+      <ul id="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Your Trusted Insurance Broker in Peru</h1>
+        <p>We help you find the best coverage for your life, health, vehicle and workplace needs.</p>
+        <a href="services.html" class="btn-primary">Explore Our Services</a>
+      </div>
+    </section>
+
+    <!-- Featured Insurances (loaded dynamically with JS) -->
+    <section class="featured">
+      <h2>Our Insurance Categories</h2>
+      <div id="featured-cards" class="cards-grid">
+        <!-- JS will insert cards here -->
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+      <h2>Why Choose Alvarez Insurance Broker?</h2>
+      <div class="reasons-grid">
+        <div class="reason">
+          <h3>✅ Expert Advice</h3>
+          <p>Over 10 years of experience in the insurance market.</p>
+        </div>
+        <div class="reason">
+          <h3>🏆 Top Insurers</h3>
+          <p>We work with Peru's leading insurance companies.</p>
+        </div>
+        <div class="reason">
+          <h3>📋 Personalized Plans</h3>
+          <p>We tailor coverage to fit your specific needs and budget.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Alvarez Insurance Broker. All rights reserved.</p>
+    <p>
+      <a href="attributions.html">Attributions</a> |
+      <a href="YOUR_VIDEO_URL" target="_blank">Watch Project Video</a>
+    </p>
+  </footer>
+
+  <script type="module" src="scripts/main.js"></script>
+
+</body>
+</html>

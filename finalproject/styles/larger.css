@@ -1,0 +1,43 @@
+/* ===== LARGER SCREENS (768px+) ===== */
+
+/* ===== NAV ===== */
+#menu-btn {
+  display: none;
+}
+
+#nav-links {
+  display: flex;
+  flex-direction: row;
+  position: static;
+  background: none;
+  padding: 0;
+  gap: 1.5rem;
+}
+
+#nav-links a {
+  padding: 0;
+}
+
+/* ===== HERO ===== */
+.hero {
+  padding: 5rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+/* ===== CARDS ===== */
+.cards-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ===== WHY US ===== */
+.reasons-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 3rem 4rem;
+}

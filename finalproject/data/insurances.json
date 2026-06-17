@@ -1,0 +1,139 @@
+{
+  "insurances": [
+    {
+      "id": 1,
+      "name": "Individual Life Insurance",
+      "category": "Life",
+      "description": "Financial protection for you and your family against unexpected events.",
+      "coverage": "Up to S/. 500,000",
+      "starting_price": 45,
+      "currency": "PEN"
+    },
+    {
+      "id": 2,
+      "name": "Life Insurance with Savings",
+      "category": "Life",
+      "description": "Life coverage combined with a long-term savings fund.",
+      "coverage": "Up to S/. 300,000",
+      "starting_price": 89,
+      "currency": "PEN"
+    },
+    {
+      "id": 3,
+      "name": "Family Life Insurance",
+      "category": "Life",
+      "description": "Covers all household members under a single policy.",
+      "coverage": "Up to S/. 400,000",
+      "starting_price": 120,
+      "currency": "PEN"
+    },
+    {
+      "id": 4,
+      "name": "Corporate Life Insurance",
+      "category": "Life",
+      "description": "Protects key employees and collaborators of your company.",
+      "coverage": "Up to S/. 1,000,000",
+      "starting_price": 200,
+      "currency": "PEN"
+    },
+    {
+      "id": 5,
+      "name": "SOAT - Mandatory Traffic Insurance",
+      "category": "Vehicle",
+      "description": "Mandatory accident insurance required by law for all vehicles in Peru.",
+      "coverage": "Legal mandatory coverage",
+      "starting_price": 85,
+      "currency": "PEN"
+    },
+    {
+      "id": 6,
+      "name": "Full Coverage Vehicle Insurance",
+      "category": "Vehicle",
+      "description": "Complete protection against collisions, theft, and fire.",
+      "coverage": "Commercial vehicle value",
+      "starting_price": 350,
+      "currency": "PEN"
+    },
+    {
+      "id": 7,
+      "name": "Basic Vehicle Insurance",
+      "category": "Vehicle",
+      "description": "Essential protection covering third-party damages.",
+      "coverage": "Up to S/. 50,000",
+      "starting_price": 180,
+      "currency": "PEN"
+    },
+    {
+      "id": 8,
+      "name": "Fleet Vehicle Insurance",
+      "category": "Vehicle",
+      "description": "Comprehensive insurance management for companies with multiple vehicles.",
+      "coverage": "Per unit based on value",
+      "starting_price": 290,
+      "currency": "PEN"
+    },
+    {
+      "id": 9,
+      "name": "Individual Health Insurance",
+      "category": "Health",
+      "description": "Access to private clinics and reimbursement of medical expenses.",
+      "coverage": "Up to S/. 200,000 per year",
+      "starting_price": 110,
+      "currency": "PEN"
+    },
+    {
+      "id": 10,
+      "name": "Family Health Insurance",
+      "category": "Health",
+      "description": "Complete medical coverage for the whole family.",
+      "coverage": "Up to S/. 350,000 per year",
+      "starting_price": 280,
+      "currency": "PEN"
+    },
+    {
+      "id": 11,
+      "name": "Oncological Insurance",
+      "category": "Health",
+      "description": "Specialized coverage for cancer diagnosis and treatment.",
+      "coverage": "Up to S/. 500,000",
+      "starting_price": 95,
+      "currency": "PEN"
+    },
+    {
+      "id": 12,
+      "name": "Dental and Vision Insurance",
+      "category": "Health",
+      "description": "Covers dental and ophthalmological treatments.",
+      "coverage": "Up to S/. 8,000 per year",
+      "starting_price": 55,
+      "currency": "PEN"
+    },
+    {
+      "id": 13,
+      "name": "SCTR Health Coverage",
+      "category": "SCTR",
+      "description": "Medical coverage for workers in high-risk activities.",
+      "coverage": "According to SUNAFIL regulations",
+      "starting_price": 35,
+      "currency": "PEN"
+    },
+    {
+      "id": 14,
+      "name": "SCTR Pension Coverage",
+      "category": "SCTR",
+      "description": "Disability or survivor pension for high-risk workers.",
+      "coverage": "According to SUNAFIL regulations",
+      "starting_price": 28,
+      "currency": "PEN"
+    },
+    {
+      "id": 15,
+      "name": "SCTR Complete Package",
+      "category": "SCTR",
+      "description": "Comprehensive package combining SCTR Health and Pension coverage.",
+      "coverage": "Full legal coverage",
+      "starting_price": 60,
+      "currency": "PEN"
+    }
+  ]
+}
