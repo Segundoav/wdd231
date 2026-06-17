@@ -1,11 +1,4 @@
-// ===== YEAR =====
-const year = new Date().getFullYear();
-document.querySelector('#year').textContent = year;
+import { initYear, initMenu } from './utils.js';
 
-// ===== HAMBURGER MENU =====
-const menuBtn = document.querySelector('#menu-btn');
-const navLinks = document.querySelector('#nav-links');
-
-menuBtn.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-});
+initYear();
+initMenu();
