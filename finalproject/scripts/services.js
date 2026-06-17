@@ -27,6 +27,7 @@ function renderCards(insurances) {
 
   container.innerHTML = insurances.map(item => `
     <div class="card" data-id="${item.id}">
+      <img src="images/${item.image}" alt="${item.name}" width="400" height="250" loading="lazy" />
       <h3>${item.name}</h3>
       <p><strong>Category:</strong> ${item.category}</p>
       <p><strong>Coverage:</strong> ${item.coverage}</p>

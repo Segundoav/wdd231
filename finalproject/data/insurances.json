@@ -7,7 +7,8 @@
       "description": "Financial protection for you and your family against unexpected events.",
       "coverage": "Up to S/. 500,000",
       "starting_price": 45,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "life.webp"
     },
     {
       "id": 2,
@@ -16,7 +17,9 @@
       "description": "Life coverage combined with a long-term savings fund.",
       "coverage": "Up to S/. 300,000",
       "starting_price": 89,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "life.webp"
+      
     },
     {
       "id": 3,
@@ -25,7 +28,8 @@
       "description": "Covers all household members under a single policy.",
       "coverage": "Up to S/. 400,000",
       "starting_price": 120,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "life.webp"
     },
     {
       "id": 4,
@@ -34,7 +38,8 @@
       "description": "Protects key employees and collaborators of your company.",
       "coverage": "Up to S/. 1,000,000",
       "starting_price": 200,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "life.webp"
     },
     {
       "id": 5,
@@ -43,7 +48,8 @@
       "description": "Mandatory accident insurance required by law for all vehicles in Peru.",
       "coverage": "Legal mandatory coverage",
       "starting_price": 85,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "vehicle.webp"
     },
     {
       "id": 6,
@@ -52,7 +58,8 @@
       "description": "Complete protection against collisions, theft, and fire.",
       "coverage": "Commercial vehicle value",
       "starting_price": 350,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "vehicle.webp"
     },
     {
       "id": 7,
@@ -61,7 +68,8 @@
       "description": "Essential protection covering third-party damages.",
       "coverage": "Up to S/. 50,000",
       "starting_price": 180,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "vehicle.webp"
     },
     {
       "id": 8,
@@ -70,7 +78,8 @@
       "description": "Comprehensive insurance management for companies with multiple vehicles.",
       "coverage": "Per unit based on value",
       "starting_price": 290,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "vehicle.webp"
     },
     {
       "id": 9,
@@ -79,7 +88,8 @@
       "description": "Access to private clinics and reimbursement of medical expenses.",
       "coverage": "Up to S/. 200,000 per year",
       "starting_price": 110,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "health.webp"
     },
     {
       "id": 10,
@@ -88,7 +98,8 @@
       "description": "Complete medical coverage for the whole family.",
       "coverage": "Up to S/. 350,000 per year",
       "starting_price": 280,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "health.webp"
     },
     {
       "id": 11,
@@ -97,7 +108,8 @@
       "description": "Specialized coverage for cancer diagnosis and treatment.",
       "coverage": "Up to S/. 500,000",
       "starting_price": 95,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "health.webp"
     },
     {
       "id": 12,
@@ -106,7 +118,8 @@
       "description": "Covers dental and ophthalmological treatments.",
       "coverage": "Up to S/. 8,000 per year",
       "starting_price": 55,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "health.webp"
     },
     {
       "id": 13,
@@ -115,7 +128,8 @@
       "description": "Medical coverage for workers in high-risk activities.",
       "coverage": "According to SUNAFIL regulations",
       "starting_price": 35,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "sctr.webp"
     },
     {
       "id": 14,
@@ -124,7 +138,8 @@
       "description": "Disability or survivor pension for high-risk workers.",
       "coverage": "According to SUNAFIL regulations",
       "starting_price": 28,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "sctr.webp"
     },
     {
       "id": 15,
@@ -133,7 +148,8 @@
       "description": "Comprehensive package combining SCTR Health and Pension coverage.",
       "coverage": "Full legal coverage",
       "starting_price": 60,
-      "currency": "PEN"
+      "currency": "PEN",
+      "image": "sctr.webp"
     }
   ]
 }
